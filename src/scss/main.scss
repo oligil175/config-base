@@ -1,0 +1,9 @@
+
+:root{
+  --color-MainTitle: blue;
+}
+
+h1{
+  color: var(--color-MainTitle);
+  background-image: url("../images/three-sides.png");
+}

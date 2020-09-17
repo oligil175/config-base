@@ -1,5 +1,5 @@
 {
-  "name": "Configuration_de_base",
+  "name": "configuration_de_base",
   "version": "1.0.0",
   "description": "Configuration de base pour l'intégration HTML.",
   "main": "index.html",
@@ -21,5 +21,14 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-strip-debug": "^3.0.0",
     "sassy-normalize": "^8.0.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oligil175/config-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oligil175/config-base/issues"
+  },
+  "homepage": "https://github.com/oligil175/config-base#readme"
 }

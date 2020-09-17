@@ -1,9 +1,11 @@
-
-:root{
-  --color-MainTitle: blue;
-}
+@import "settings/font";
+@import "settings/colors";
+/*@import "normalize";*/
+@import "generic/reset";
+@import "elements/body";
 
 h1{
-  color: var(--color-MainTitle);
-  background-image: url("../images/three-sides.png");
+
+  color: red;
+
 }

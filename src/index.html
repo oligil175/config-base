@@ -2,79 +2,75 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <title>TIM Retro</title>
 
-    <title>Indiquer le titre de la page</title>
-
-    <link rel="stylesheet" href="css/main.css">
-
-    <script src="js/script.js"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cardo:ital,wght@0,400;0,700;1,400&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-<h1>Exemple de texte dans un H1</h1>
-<h2>Exemple de texte dans un H2</h2>
-<h3>Exemple de texte dans un H3</h3>
-<h4>Exemple de texte dans un H4</h4>
-<h5>Exemple de texte dans un H5</h5>
-<h6>Exemple de texte dans un H6</h6>
-
-<h3>Voici un exemple de paragraphe avec l'espacement entre les paragraphes (line-height)</h3>
-
-<p>La propriété <strong>line-height</strong> définit la hauteur de la boîte d'une ligne.</p>
-<p>Sur les éléments de bloc, la propriété <strong>line-height</strong> indique la hauteur minimale des lignes au sein de l'élément. Sur les éléments en ligne qui ne sont pas remplacés, <strong>line-height</strong> indique la hauteur utilisée pour calculer la hauteur de la boîte d'une ligne.</p>
-<p>Il faut s'habituer à ajuster le <strong>line-height</strong> dans nos page.</p>
-
-<h3>Voici un exemple de lien</h3>
-<p>Un lien vers le site la <a href="https://developer.mozilla.org/fr/">Documentation du Web - MDN</a></p>
-
-<h3>Voici une exemple de liste à puce</h3>
-<h4>Liste d'éléments sans ordre particulier</h4>
-<ul>
-    <li>Voici l'item1</li>
-    <li>Voici l'item2</li>
-    <li>Voici l'item3 avec un sous-liste
-        <ul>
-            <li>Sous liste item1</li>
-            <li>Sous liste item2</li>
-            <li>Sous liste item3</li>
-        </ul>
-    </li>
-    <li>Voici l'item4</li>
-    <li>Voici l'item5</li>
-</ul>
-<h4>Liste d'éléments ordonnée</h4>
-<ol>
-    <li>Voici l'item1</li>
-    <li>Voici l'item2</li>
-    <li>Voici l'item3
-        <ol>
-            <li>Sous liste item1</li>
-            <li>Sous liste item2</li>
-            <li>Sous liste item3</li>
-        </ol>
-    </li>
-    <li>Voici l'item4</li>
-    <li>Voici l'item5</li>
-</ol>
-
-
-<h3>Voici une exemple de ligne avec la balise hr</h3>
-<hr>
-<hr class="hr-thin">
-<hr class="hr-large">
-
-
-<div class="wrapper">
-    <h3>Voici une exemple de wrapper avec la propriété margin: 0 auto;</h3>
-</div>
-
-<div class="grid-wrapper">
-    <h3 class="grid-center">Voici une exemple de wrapper avec le layout css Grid</h3>
-</div>
-
-
-
-
-
+<header class="header-principal">
+    <div class="conteneur">
+        <h1>TIM Retro</h1>
+    </div>
+</header>
+<section class="hero">
+    <video  loop="loop" autoplay="autoplay" muted>
+        <source src="video/video.mp4" type="video/mp4" />
+    </video>
+    <div class="content">
+        <h2>TIM RETRO</h2>
+        <p>Les antiquités de tous les genres nous plaisent beaucoup. Jeux, arcades, vinyl, etc.</p>
+        <a href="#">Venez en parler avec nous</a>
+    </div>
+</section>
+<section class="interet">
+    <div class="conteneur">
+        <h3>Nos intérêts</h3>
+        <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+        <div class="cartes">
+            <div class="carte">
+                <img src="images/icon/film.svg" alt="">
+                <h4>Les films</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+            <div class="carte">
+                <img src="images/icon/gadget.svg" alt="">
+                <h4>Les Gadgets</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+            <div class="carte">
+                <img src="images/icon/jeux.svg" alt="">
+                <h4>Les jeux</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+            <div class="carte">
+                <img src="images/icon/photo.svg" alt="">
+                <h4>La photo</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+            <div class="carte">
+                <img src="images/icon/tv.svg" alt="">
+                <h4>Les séries télés</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+            <div class="carte">
+                <img src="images/icon/walkman.svg" alt="">
+                <h4>La musique</h4>
+                <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="citation">
+    <div class="conteneur">
+        <h3>« Ils sont vraiment cool chez RetroTIM! Ils ont littérallement changé ma vie! J'espère qu'ils ne fermeront jamais »</h3>
+        <p>- Paul Mariuta</p>
+    </div>
+</section>
+<footer class="footer-principal">
+    <div class="copyright">
+        <p>© Matthieu Parent et Benoit Lavigne, inspiré du thème de <a href="http://www.templated.co/industrious" target="_blank">templated.co/industrious</a></p>
+    </div>
+</footer>
 </body>
 </html>

@@ -3,9 +3,9 @@
 /*@import "normalize";*/
 @import "generic/reset";
 @import "elements/body";
-
-h1{
-
-  color: red;
-
-}
+@import "component/wrapper";
+@import "component/header";
+@import "component/nav";
+@import "component/hero";
+@import "component/a";
+@import "component/div";

@@ -1,0 +1,41 @@
+
+
+
+
+.cartes{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.carte{
+
+  width: 352px;
+  height: 367px;
+  text-align: center;
+}
+
+
+.interet h3{
+
+  text-align: center;
+
+
+}
+
+.interet p{
+
+  text-align: center;
+  font-size: var(--font-size-primaire);
+
+}
+
+.img{
+
+  background-image: url("../../images/bg-interet.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
